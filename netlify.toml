@@ -1,0 +1,9 @@
+[build]
+    publish = "exampleSite/public/"
+    command = "hugo -s exampleSite/ --themesDir /opt/build/ -t repo"
+
+[context.production.environment]
+HUGO_VERSION = "0.42"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.42"
