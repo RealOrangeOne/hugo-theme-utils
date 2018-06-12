@@ -1,15 +1,15 @@
 version: 2.0
 
 jobs:
-  build:
-    docker:
-      - image: circleci/node:6.10
-      working_directory: ~/hugo-theme-utils
-      steps:
-        - checkout
-        - run:
-          name: Install Hugo
-          command: wget https://github.com/gohugoio/hugo/releases/download/v0.42/hugo_0.42_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
-          - run:
-            name: Build site
-            command: hugo -s exampleSite
+    build:
+        docker:
+            - image: circleci/node:6.10
+        working_directory: ~/hugo-theme-utils
+        steps:
+            - checkout
+            - run:
+                name: Install Hugo
+                command: wget https://github.com/gohugoio/hugo/releases/download/v0.42/hugo_0.42_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+            - run:
+                name: Build site
+                command: hugo -s exampleSite
