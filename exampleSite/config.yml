@@ -1,0 +1,4 @@
+baseURL: http://localhost:1313
+title: Hugo Theme Utils
+themesDir: "../../"
+theme: "hugo-theme-utils"
