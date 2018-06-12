@@ -1,5 +1,7 @@
 # Hugo theme utils
 
+[![CircleCI](https://circleci.com/gh/RealOrangeOne/hugo-theme-utils.svg?style=svg)](https://circleci.com/gh/RealOrangeOne/hugo-theme-utils)
+
 __Warning__: This repo is currently a work in progress!
 
 Requires Hugo `>=0.42`.
