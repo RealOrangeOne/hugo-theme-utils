@@ -1,5 +1,6 @@
 name = "utils"
 license = "MIT"
+licenselink = "https://github.com/realorangeone/hugo-theme-utils/blob/master/LICENSE"
 homepage = "https://github.com/realorangeone/hugo-theme-utils"
 
 [author]
